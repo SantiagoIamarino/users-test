@@ -1,0 +1,92 @@
+.user {
+    border-radius: 10px;
+    padding:30px;
+    position: relative;
+    box-shadow: 1px 1px 3px gray;
+    overflow: hidden;
+}
+
+.user p {
+    text-align: center;
+}
+
+.user .header-bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    height:30%;
+    width: 100%;
+    background: #416dff;
+    z-index: -1;
+}
+
+.user .user-name {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.user .user-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user .user-img img {
+    height:150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.user .edit-user {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-user-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-user-modal .modal-bg {
+    background: rgba(37, 36, 36, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.edit-user-modal form {
+    background: white;
+    width: 800px;
+    max-width: 95vw;
+    z-index: 999;
+    padding: 30px;
+    border-radius: 5px;
+    box-sizing: 1px 1px 3px gray;
+}
+
+.final-btns {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.final-btns button {
+    min-width:200px;
+    margin: 0 20px;
+}
